@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/action_photo" android:title="@string/action_Photo" android:icon="@drawable/image" android:showAsAction="always"></item>
+    <item android:id="@+id/action_photomapMenu" android:title="@string/action_photomap"></item>
+    <item android:id="@+id/CustomMapper" android:title="@string/action_customMapper" android:icon="@drawable/location" android:showAsAction="always"></item>
+
+</menu>
